@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshopp</title>
+    <style>
+        /* Reset de margens e padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4; /* Cor de fundo neutra */
+            color: #333; /* Cor do texto */
+            line-height: 1.6;
+            padding: 0;
+        }
+
+        /* Layout do topo */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #4a90e2; /* Azul claro */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Título principal (Petz) */
+        h1 {
+            color: #f5a623; /* Amarelo vibrante */
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-style:italic;
+        }
+
+        /* Menu de navegação no topo */
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        /* Efeito de hover nos links */
+        nav a:hover {
+            background-color: #f5a623; /* Cor de fundo ao passar o mouse */
+            color: #fff;
+            border-color: #f5a623; /* Cor da borda ao passar o mouse */
+        }
+
+        /* Títulos de conteúdo (h2) */
+        h2 {
+            text-align: center;
+            color: #4a90e2;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-top: 30px;
+            line-height: 1.5;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra suave para destacar */
+        }
+
+        /* Blocos de conteúdo */
+        section {
+            padding: 40px 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        /* Divisão entre os blocos */
+        section + section {
+            margin-top: 20px;
+        }
+
+        /* Estilo para links gerais na página */
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Responsividade */
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 15px 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+
+            nav {
+                justify-content: flex-start;
+                width: 100%;
+                margin-top: 15px;
+            }
+
+            nav a {
+                font-size: 1rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Petshopp</h1>
+        <nav>
+            <a href="contatos.html">Contato</a>
+            <a href="horarios.html">Horários</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Vindo ao nosso pet shop especializado em banho e tosa de animais de estimação!</h2>
+        <h2>Também possuímos a creche de animais, onde você pode deixar seu pet enquanto você está fora da cidade ou ocupado. Atendemos de segunda a domingo, das 8h às 20h.</h2>
+    </section>
+
+</body>
+</html>
